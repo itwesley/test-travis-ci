@@ -1,3 +1,10 @@
 language: python
-python: 2.7
+python:
+  - 2.7
 script: python test.py -v
+notifications:
+  slack:
+    on_failure: always
+    on_success: always
+    rooms:
+      secure: PR3yQTU6qV8PK6NKvtUgC++wFvREYnUmbBOVVFPLVYiRzyvuFxGR+YqcmfBbwt9gTJWwDyhqMQvfIJFgB+6bheYy0EltGCxfzWTclq0ZDlFYuLQbx55UBs6CEpDhc5GVyITNndGLtIJUMpwlTJstPiRlKa8ErhkLok1R83vhlqO6FdUzeAsQtlpnm4hPVCBaaQ3f38jkuaH42JaXw9V9NSOTPfIQ9oNiuqXrsGY4C4BEkDFVRoHmp1KgkLs/Aooj/5271OaMv+KDDDzuU/cTXHVTI6lJAfbpfZeg/7HIhXlR+C5w6hcQuZN8k+hmlEb5uynit/GZIbwTr6tziOjaferutW/zmo4BjQHAMDR0zbzAaTVJs38FF2v08EU9rRbpYyj6Q4Ht7/6yn/gNUv53zqh6elwiP3y9QGy76Z1AURq6ks2cyv8yyxWSSxK545kx5dnFj3Sh9oXI5ZjQKAH8y0tfEH/dbgG5ltSgIANzc08wM6pYzZxK5xJyuMR1fKCjL/3X/goXaYmTj/2aJ8zCOQRvOnEjx8rhyDwmmDbUcv+n1kakPc8zodZs1bnC/iOeOwa8aQ/qEjbuQg0dwAgDKMsGYC7dOeAXD5XdfeuqWCb9dwY+A9I574Sxk6VKByLpeYc4I4ynG0y4Yt/gm0eL9ufC4G4Q9PkJjHTGZsb4UrU=
