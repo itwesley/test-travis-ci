@@ -12,7 +12,7 @@ def main(arg):
         print i,
 
 
-#if __name__ == '__main__':
-#    import doctest
-#    doctest.testmod()
-#    main(10)
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+    main(10)
