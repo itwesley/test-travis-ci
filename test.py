@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+from __future__ import print_function
+
 
 def main(arg):
     """ return 1 to 9 number
@@ -9,7 +9,7 @@ def main(arg):
     """
 
     for i in range(1, arg):
-        print i,
+        print(i, end=' ')
 
 
 if __name__ == '__main__':
