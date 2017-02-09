@@ -2,6 +2,7 @@ language: python
 python:
   - 2.7
   - 3.5
+sudo: required
 install: pip install pytest
 script: py.test test/t2_pytest.py
 notifications:
