@@ -3,8 +3,7 @@ python:
   - 2.7
   - 3.5
 sudo: required
-env: PYTHONPATH=/home/travis
-script: py.test
+script: pytest
 notifications:
   slack:
     secure: ipxbJI4woav1l6LNBgxXXOyMrhyOLUiOX1ZRsJOBLyPTtKtwCFiblBTtJNkBk+oaByXAq1mlgGjPvgtQ1S+s47WikPsSDe7fOHB5m0NmAGuhrpXnpnaHf1joOJEkrGSG0kDAaekabIZkbs/HJXpvpHX37f+lmRJ232PBXnY272t0rncrtwyAEwTu1lQtonIXJ69Ia44t6uuTfF/IdWygPWmr3a+5mCOQxSPFBIt5dbMONh/F223oS8/pQjyP/I14wYpL7ncCHr4NhZqyHhBRpAlZDJyDf8YJmb2uHuT0NjsP8dkJg2DSVl+AJPjj8YYVU90d8XbfLLaTbl70jWUhxCFvmSguBF5MfVBiLFoU8E6w/1RSZ1AxfUwmw1/8R0i/nTImVqnQT+CNAHk0s+Z/+E7Xc8wh8DbzYUxz4GzjpIdLsJ7yZAoUb8iMVLem9SNkxSbOu+pOLbf8pm1XfZdWvnvPzknQP11Tgo6rFsSxoME+xRr/X+PalanpAT0KWpRETXVhZrlM4O3tCyq6VG4mK3GBcHVnwUJXDxEnihPDRKWHu3ntNdsTjW9KaTzHquk8UCmNE14KqtIZXszYIJTChmtR868zFxBp6r0lcF6UcvCQXco3wqUWn2V1VvB/z3KXXL4hbOeNgMCXC6pyVS2dZUzX2bTUQDjGIjuvdrZLG/Q=
